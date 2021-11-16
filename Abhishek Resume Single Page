@@ -1,0 +1,245 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+% {{{
+\usepackage[top=0.5in, bottom=0.3in, left=0.5in, right=0.5in]{geometry}
+\usepackage{graphicx}
+\graphicspath{(\)}
+\usepackage{hyperref}
+\hypersetup{colorlinks = true, citecolor = blue, linkcolor = blue, urlcolor = blue}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{makecell}
+\usepackage[normalem]{ulem}
+\usepackage{wrapfig}
+\renewcommand{\ULthickness}{0.5pt}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+% \usepackage{helvetica}
+% \usepackage{array}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=10.4in
+\raggedbottom
+% \raggedright
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.5cm}
+\renewcommand{\labelitemii}{$\circ$}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1.75in}
+%\addtolength{\topmargin}{0.1375in}
+%\addtolength{\textheight}{1.75in}
+\pagestyle{empty}
+% }}}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small
+        {
+            \begin{minipage}
+                {0.992\textwidth}\textbf{{\textsc{#1 \vphantom{p\^{E}} }}}
+                \\[-0.3cm]
+                \hrule
+            \end{minipage}
+            \\[-0.5cm]
+        }
+ }}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+    \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+% \textit{#3} &  \\
+%-----------------------------------------------------------
+
+\begin{document}
+% %{{{
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% \hspace{0.2cm}\\
+% % \hspace{0.2cm}\\
+% % \hspace{0.2cm}\\
+% % \\
+% \hspace{0.5cm}\\
+% % \hspace{0.2cm}\\
+% % \hspace{0.2cm}\\
+% %}}}
+\renewcommand{\arraystretch}{1.2}
+\begin{wrapfigure}{r}{2in}
+\hspace{1.5cm} \includegraphics[scale = 0.5]{abhi.jpg}
+\end{wrapfigure}
+
+\textbf{Abhishek Yadav} \hspace{3.35cm}   \textbf{180151530002} \\
+\indent \textbf{Electrical Engineering}     \hspace{2.45cm}  \textbf{B.Tech} \\
+\indent \textbf{GJUS\&T Hisar}  \hspace{3.6cm}  \textbf{Male} \\
+\indent \textbf{\href{mailto:abhi.nihil@gmail.com}{abhi.nihil@gmail.com}} \hspace{2.5cm}  \textbf{DOB: 01/05/2000}\\
+\indent \textbf{+919691863517} \hspace{3.7cm} \textbf{\href{https://github.com/abhiee1898}{GitHub}}\\
+\indent \textbf{\href{https://www.linkedin.com/in/abhiieee/}{LinkedIn}}
+
+%\indent \textbf{\url{}}
+
+
+
+
+% \resheading{\textbf{\large Academic Details}}\\[\lsep]
+% \\ [-0.6cm]
+% \\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\noindent\begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\Xhline{4\arrayrulewidth}
+% \vspace{0.1cm}
+\textbf{Examination} & \textbf{University} & \textbf{Institute} & \textbf{Year} &                \hspace{1cm} \textbf{\href{https://drive.google.com/drive/folders/1KA3E57v-m3zUMS5jCtR_bWLGLa-WQBjE?usp=sharing}{CPI / \%}} \\
+[0.1cm]
+% \vspace{-0.1cm}
+\Xhline{4\arrayrulewidth}
+% \vspace{0.1cm}
+% \\
+Graduation & GJUS\&T Hisar & GJUS\&T Hisar & 2022 &  \hspace{1cm} 6.63 \\
+Intermediate/+2 & CBSE & Prestige Public School, Indore &2017 &  \hspace{1cm} 71.80\\
+Matriculation  & CBSE &  St. Francis Higher Secondary School, Pithampur  &2015 &  \hspace{1cm} 8.4
+\\[0.0001cm]
+\Xhline{4\arrayrulewidth}
+\end{tabular}
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\[0.2cm]
+\vspace{-5.0cm}
+%{{{
+
+\noindent\resheading{\textbf{\large TECHNICAL SKILLS}}\\[\lsep] 
+\\ [-0.2cm]
+%{{{
+    \begin{itemize}\itemsep \isep
+        \item \textbf{Programming \& Scripting Languages (Familiar With) :}  C++ \& \LaTeX.
+        \item \textbf{Tools and Technologies:} Arduino, Autocad, MATLAB.
+    \end{itemize}
+%}}}
+\resheading{\textbf{\large KEY ACADEMIC PROJECTS}}\\[\lsep] 
+% {{{
+\\ [-0.2cm]
+\begin{itemize}
+\item \textbf{IoT BASED SMART WHEELCHAIR FOR DISABLED PERSONS} | Iot \& Sensors  \\
+    \emph{Major Project, Guide: Dr. Sumit Saroha, Department of Electrical Engineering, GJUS\&T Hisar} \hfill \emph{(Feb'21 - Apr'21)}
+    \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item \textbf{\href{https://github.com/abhiee1898/smart-wheelchair-arduino.git}{GitHub Repository.}}
+        \item \textbf{Objective:} Proposed a \textbf{Gesture controlled wheelchair} model for \textbf{Movement}.
+         \item \textbf{Heartbeat} and \textbf{Temperature} sensors are used for monitoring health conditions of the Patient.
+	    \item Movement controlled can be done by distinctive modes like : \textbf{Joystick} or\textbf{Accelerometer} as per comfort of the client.
+	    \item \textbf{Ultrasonic} sensor is used for avoiding Obstacles.
+	    \item \textbf{GPS} and \textbf{GSM} modules offer assistance to the Guardian to keep an eye on the Patient's therapeutic \\ conditions.
+            \item Working on \textbf{\href{https://drive.google.com/file/d/13tPYXroc4rD9nyeMBiixcQudzDN5aZGW/view?usp=sharing}{Research Paper}} to publish in Tier I conferences (\textbf{IEEE}) of sensors \& IoT.
+            \item \textbf{Tools \& Sensors Used : Arduino Mega, BLDC Motors, GPS, GSM, Temperature Sensor, Pulse Sensor, Joystick, Accelerometer, Ultrasonic Sensor.}
+            \item \textbf{Programming \&Software Used :C, Arduino \& MATLAB.}
+           \item \textbf{Impact : Cost Effective.}
+    \end{itemize}
+\end{itemize}
+% }}}
+\resheading{\textbf{\large WORKSHOP PROJECTS}}\\[\lsep]
+\\[-0.2cm]
+%{{{
+\begin{itemize}
+
+\item \textbf{\href{https://drive.google.com/file/d/1qjVSXuLgACX3OmZx8CcTT2CZSmen_f_M/view?usp=sharing}{GJUS\&T WORKSHOP-CUM-COMPETITION}} | Innovation \& Incubation Centre \& Startup Cell \textbf{(GJUS\&T)} \\(\emph{\textbf{Line Follower Robot} GJUS\&T Hisar)\hfill (5 Apr'19 - 8 Apr'19)}
+    \\ [-0.6cm]
+    \begin{itemize}\itemsep \isep
+    \item \textbf{Co-Led} a 2-member team aimed to design a \textbf{Line Follower Robot} for University Level Competition.
+    \item Implemented \textbf{Operational Amplifiers Circuits} and \textbf{Infrared Waves} to detect Path. 
+    \end{itemize}
+\end{itemize}
+%  \vspace{0.05cm}
+\resheading{\textbf{\large INTERNSHIP}}\\[\lsep]
+\\[-0.2cm]
+% {{{
+\begin{itemize}
+    \item \textbf{\href{https://drive.google.com/file/d/1L3ftWOlCR2I43gR03A6HqzPAZJnFNfah/view?usp=sharing}{INDIAN RAILWAYS}}\\
+\emph{ \textbf{{Ministry of Railways, Govt. of India}} (South Eastern Railways \textbf{Chakradharpur})} \hfill \emph{(06 Aug'21 - 06 Sep'21)}
+        \\ [-0.6cm]
+        \begin{itemize}\itemsep \isep
+	\item Completed Vocational Training at Electric Traction Distribution, Chakradharpur which comes under South Eastern Railways Division.
+	%\item Increased \textbf{productivity by 5\%}.
+% 	\item Implemented projects such as optimization of turn up height, Effect of Friction on Foot Print shape and dimensions which results in increasing Productivity by 5\%
+	%\item Hands on experience on \textbf{HTML}.
+	%\item \emph{Current work:} Studied various existing dependency parsers and implementing a neural network dependency parser to validate the verb structure by feeding the different set of requirements from different programs
+   % \item \emph{Future work:} Disambiguate the high-level and low-level natural language requirements. Perform an automatic requirement analysis (consistency and completeness) using NuXMV, PVS, SLDV, and Astree
+    \end{itemize}
+\end{itemize}
+%\begin{itemize}
+   % \item \textbf{\href{https://drive.google.com/file/d/1RnBbM-KwGngSHNAXQlbXJg5kkTWwMfzS/view?usp=sharing}{PREPFIX}}\\
+%\emph{Via \textbf{\href{https://drive.google.com/file/d/1pCPUwBlUVz_WaF71oI0pMSUm3NfVFLu9/view?usp=sharing}{Internshala}} (Web Developer)} \hfill \emph{(14 Jul'21 - 14 Aug'21)}
+        \\ [-0.6cm]
+        %\begin{itemize}\itemsep \isep
+	%\item Worked with design and product development team to provide analysis led design solution.
+	%\item Increased \textbf{productivity by 5\%}.
+% 	\item Implemented projects such as optimization of turn up height, Effect of Friction on Foot Print shape and dimensions which results in increasing Productivity by 5\%
+	%\item Hands on experience on \textbf{HTML}.
+	%\item \emph{Current work:} Studied various existing dependency parsers and implementing a neural network dependency parser to validate the verb structure by feeding the different set of requirements from different programs
+   % \item \emph{Future work:} Disambiguate the high-level and low-level natural language requirements. Perform an automatic requirement analysis (consistency and completeness) using NuXMV, PVS, SLDV, and Astree
+   % \end{itemize}
+%\end{itemize}
+% }}}
+% \\[-.6cm]
+\vspace{-0.1cm}
+\resheading{\textbf{\large POSITIONS OF RESPONSIBILITY}}\\[\lsep] 
+\\[-0.2cm]
+%{{{
+\begin{itemize}\itemsep \isep
+  %\item \textbf{Organiser : IEEE Student Branch, GJUS\&T Hisar}.  \hfill\emph{(2021)}
+    	
+  \item \textbf{\href{https://drive.google.com/file/d/1GzujDxvcADXgHOlX98MLHZhR-_u4lAxy/view?usp=sharing}{Core Committee - Vidyutarang}} \emph{(Manch)}. \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+         \item \textbf{Student Head Coordinator} of Departmental \textbf{Cultural Fest - Manch}. \hfill\emph{(28 Jun'21 - 30 Jun'21)}
+        \end{itemize}
+            
+\end{itemize}
+% \vspace{-0.1cm}
+%}}}
+\resheading{\textbf{\large EXTRACURRICULAR ACTIVITIES}}\\[\lsep]
+\\[-0.2cm]
+\begin{itemize}\itemsep \isep
+     \item Attended Webinar on \textbf{\href{https://drive.google.com/file/d/1nqW6dyvGjNXLPvcjxmu-x0pM6JR7hrFw/view?usp=sharing}{Solid State Transformer \& Their Applications}} organised by \textbf{IEEE Kerla Section} \hfill\emph{(2020)}
+    
+\end{itemize}
+% \vspace{-0.1cm}
+%}}}
+\resheading{\textbf{\large PERSONAL STRENGTHS}}\\[\lsep]
+\\[-0.2cm]
+\begin{itemize}\itemsep \isep
+     \item Can work effectively in a team as well as individually.
+     \item Good logical, communication \& time management skill.
+    
+\end{itemize}
+\resheading{\textbf{\large INTEREST \& HOBBIES}}\\[\lsep] 
+\\[-0.2cm]
+%{{{
+\begin{itemize}
+ \item Listening Music, Reading Books, Hiking \& Trekking.
+\end{itemize}
+% \vspace{-0.1cm}
+%}}}
+\end{document}
+
